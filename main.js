@@ -1,4 +1,5 @@
 
+
 // Your web app's Firebase configuration
 var firebaseConfig = {
   apiKey: "AIzaSyBFRaDrmqnxumLU5MEj31g3hB-7v7HRgIs",
@@ -38,6 +39,13 @@ firebase.initializeApp(firebaseConfig);
     saveMessage(name, company, email, phone, message);
 
     // Show alert
+  document.querySelector('.alert').style.display ='block';
+
+  // Hide alert after 3 seconds
+
+  setTimeout(function(){
+    document.querySelector('.alert').style.display ='none';
+  },3000);
 
 
     // Clear form
@@ -60,3 +68,4 @@ firebase.initializeApp(firebaseConfig);
       message:message
     });
   }
+
