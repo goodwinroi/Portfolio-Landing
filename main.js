@@ -1,5 +1,5 @@
 
- // Your web app's Firebase configuration
+// Your web app's Firebase configuration
 var firebaseConfig = {
   apiKey: "AIzaSyBFRaDrmqnxumLU5MEj31g3hB-7v7HRgIs",
   authDomain: "portfolio-landing-form.firebaseapp.com",
