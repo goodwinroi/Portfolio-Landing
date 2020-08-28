@@ -21,11 +21,36 @@ body{
 
 }
 
+.nav-bar{
+  background: #85a7b2 ;
+  padding: 5px ;
+  color: #414a4c ;
+  font-weight: 700 ; 
+}
+.nav-bar button{
+  background: #f8f8ff;
+  border: 1px ;
+  text-transform: uppercase ;
+}
+
+.nav-bar button:hover, .nav-bar button:focus{
+  background:  #85a7b2;
+  color: #ffffff;
+  outline: 0 ;
+  transition: background-color 2s ease-out ;
+
+}
+
+.navbar .portfolio button{
+  color: #ffffff;
+}
+
 .header{
   text-align: center;
 }
 .header span{
   color: #85a7b2 ;
+
 }
 
 .wrapper{
@@ -91,6 +116,16 @@ transition: background-color 2s ease-out ;
 
 }
 
+
+.alert{
+  text-align: center;
+  padding: 10px ;
+  background:#008000;
+  color: white ;
+  margin-bottom: 10px ;
+  display: none;
+
+}
 /*large screens*/
 
 @media(min-width:700px){
@@ -108,7 +143,8 @@ transition: background-color 2s ease-out ;
   }
 
 ul{
-  text-align: left ; 
+  text-align: left ;
 }
 
 }
+
